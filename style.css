@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 5vh;
+    width: calc(100vw - 10px);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
